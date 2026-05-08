@@ -1,0 +1,84 @@
+/*Corpo do site*/
+body{r:blac
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:black
+}
+/*Cabeçario*/
+header{
+    background-color: blueviolet;
+    color: rgb(255, 240, 240);
+    padding: 20px;
+    text-align: center; /*Alinhamento do texto*/
+}
+/*Menu*/
+nav{
+margin-top: 10px;
+}
+nav a{
+color: brown;
+text-decoration: nome;
+margin: 10px;
+}
+nav a:hover{
+color: navy;
+}
+/*Conteudo pricipal*/
+main{
+    padding: 30px;
+}
+/*Seções*/
+section{
+    background-color: aquamarine;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px;
+}
+
+/*Titulo*/
+h1{
+    margin: 0;
+}
+h2{
+    color: black;
+}
+/*Lista*/
+ul,ol{
+    padding-left: 20px;
+}
+/*Imagens*/
+img{
+    width: 100%;
+    height: auto;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+nav a{
+    display: block;
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 5px;
+}
+section{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+div{
+    width: 100%;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+
+
